@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #4a4a49;
+}
+#name-label,#gender-label,#number-label,#checkbox-label{
+    font-weight: bold;
+}
+h1{
+    font-size: 2rem;
+}
+[type="radio"]{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+[type="checkbox"]{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+span{
+    font-style: italic;
+}
+.btn{
+    width:100%;
+}
+.col {
+    margin-left: 40px !important;
+}
+.container-fluid{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+input,textarea{
+    margin-bottom: 10px;
+}
+span {
+  color: red;
+  padding-left: 2px;
+}
